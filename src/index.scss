@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+$primary: #ec839f;
+$warning: #ff748c;
+$info: $primary;
+$link: #f99290;
+$grey-dark: #757763;
+$success: #89b9a9;
+$danger: #ad6363;
+
+$navbar-item-hover-color: $primary;
+$navbar-tab-active-color: $primary;
+$navbar-item-color: $grey-dark;
+
+$menu-item-hover-background-color: #fcddd8;
+
+$pagination-focus-border-color: #f57662;
+$pagination-color: #f57662;
+@import "../node_modules/bulma/bulma";
